@@ -5,3 +5,6 @@ lm_cache
 .idea
 
 *.egg-info/
+*.swp
+*.json
+cache
