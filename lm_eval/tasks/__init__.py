@@ -9,6 +9,7 @@ from . import superglue
 from . import glue
 from . import arc
 from . import arc_fi
+from . import arc_sv
 from . import coqa
 from . import race
 from . import webqs
@@ -146,6 +147,7 @@ TASK_REGISTRY = {
     "arc_easy": arc.ARCEasy,
     "arc_challenge": arc.ARCChallenge,
     "arc_challenge_fi": arc_fi.ARCChallengeFi,
+    "arc_challenge_sv": arc_sv.ARCChallengeSv,
     # "quac": quac.QuAC, # not implemented yet
     "logiqa": logiqa.LogiQA,
     "hellaswag": hellaswag.HellaSwag,
