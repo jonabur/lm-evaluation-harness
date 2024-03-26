@@ -8,7 +8,9 @@ from . import babi
 from . import superglue
 from . import glue
 from . import arc
+from . import arc_da
 from . import arc_fi
+from . import arc_nb
 from . import arc_sv
 from . import coqa
 from . import race
@@ -146,7 +148,9 @@ TASK_REGISTRY = {
     "triviaqa": triviaqa.TriviaQA,
     "arc_easy": arc.ARCEasy,
     "arc_challenge": arc.ARCChallenge,
+    "arc_challenge_da": arc_da.ARCChallengeDa,
     "arc_challenge_fi": arc_fi.ARCChallengeFi,
+    "arc_challenge_nb": arc_nb.ARCChallengeNb,
     "arc_challenge_sv": arc_sv.ARCChallengeSv,
     # "quac": quac.QuAC, # not implemented yet
     "logiqa": logiqa.LogiQA,
