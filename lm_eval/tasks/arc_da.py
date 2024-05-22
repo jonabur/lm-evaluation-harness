@@ -28,8 +28,8 @@ _CITATION = """
 
 class ARCChallengeDa(MultipleChoiceTask):
     VERSION = 0
-    DATASET_PATH = "LumiOpen/arc_challenge_da"
-    DATASET_NAME = "default"
+    DATASET_PATH = "LumiOpen/arc_challenge_mt"
+    DATASET_NAME = "da"
 
     def has_training_docs(self):
         return True
