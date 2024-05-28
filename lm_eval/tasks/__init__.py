@@ -12,6 +12,13 @@ from . import arc_da
 from . import arc_fi
 from . import arc_nb
 from . import arc_sv
+from . import arc_de
+from . import arc_el
+from . import arc_es
+from . import arc_hu
+from . import arc_it
+from . import arc_pl
+from . import arc_pt
 from . import coqa
 from . import race
 from . import webqs
@@ -152,6 +159,13 @@ TASK_REGISTRY = {
     "arc_challenge_fi": arc_fi.ARCChallengeFi,
     "arc_challenge_nb": arc_nb.ARCChallengeNb,
     "arc_challenge_sv": arc_sv.ARCChallengeSv,
+    "arc_challenge_de": arc_de.ARCChallengeDe,
+    "arc_challenge_el": arc_el.ARCChallengeEl,
+    "arc_challenge_es": arc_es.ARCChallengeEs,
+    "arc_challenge_hu": arc_hu.ARCChallengeHu,
+    "arc_challenge_it": arc_it.ARCChallengeIt,
+    "arc_challenge_pl": arc_pl.ARCChallengePl,
+    "arc_challenge_pt": arc_pt.ARCChallengePt,
     # "quac": quac.QuAC, # not implemented yet
     "logiqa": logiqa.LogiQA,
     "hellaswag": hellaswag.HellaSwag,
