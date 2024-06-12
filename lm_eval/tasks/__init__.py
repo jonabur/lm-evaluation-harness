@@ -10,6 +10,7 @@ from . import glue
 from . import arc
 from . import arc_da
 from . import arc_fi
+from . import arc_is
 from . import arc_nb
 from . import arc_sv
 from . import arc_de
@@ -166,6 +167,7 @@ TASK_REGISTRY = {
     "arc_challenge_it": arc_it.ARCChallengeIt,
     "arc_challenge_pl": arc_pl.ARCChallengePl,
     "arc_challenge_pt": arc_pt.ARCChallengePt,
+    "arc_challenge_is": arc_is.ARCChallengeIs,
     # "quac": quac.QuAC, # not implemented yet
     "logiqa": logiqa.LogiQA,
     "hellaswag": hellaswag.HellaSwag,
